@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GOOGLE_CREDENTIALS = credentials('JENKINS-ID')
+        GOOGLE_CREDENTIALS = credentials('TERRAFORM-AUTHE')
     }
 
     parameters {
